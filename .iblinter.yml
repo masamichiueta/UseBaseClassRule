@@ -1,0 +1,9 @@
+enabled_rules:
+  - use_base_class
+excluded:
+  - Pods
+use_base_class_rule:
+  - element_class: UILabel
+    base_classes:
+      - PrimaryLabel
+      - SecondaryLabel
