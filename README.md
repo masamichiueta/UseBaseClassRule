@@ -1,0 +1,2 @@
+# UseBaseClassRule
+IBLinter UseBaseClassRule sample
