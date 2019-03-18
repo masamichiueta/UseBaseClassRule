@@ -13,6 +13,7 @@
 		24C36803223FD4EF003A2B4F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24C36801223FD4EF003A2B4F /* Main.storyboard */; };
 		24C36805223FD4F1003A2B4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24C36804223FD4F1003A2B4F /* Assets.xcassets */; };
 		24C36808223FD4F1003A2B4F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24C36806223FD4F1003A2B4F /* LaunchScreen.storyboard */; };
+		24C36811223FD840003A2B4F /* Label.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24C36810223FD840003A2B4F /* Label.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		24C36804223FD4F1003A2B4F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		24C36807223FD4F1003A2B4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		24C36809223FD4F1003A2B4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24C36810223FD840003A2B4F /* Label.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Label.swift; sourceTree = "<group>"; };
 		B2930AB6107D32CEE3AF42D1 /* Pods-UseBaseClassRule.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UseBaseClassRule.debug.xcconfig"; path = "Target Support Files/Pods-UseBaseClassRule/Pods-UseBaseClassRule.debug.xcconfig"; sourceTree = "<group>"; };
 		CABA83C5C1B92937E22359ED /* Pods-UseBaseClassRule.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UseBaseClassRule.release.xcconfig"; path = "Target Support Files/Pods-UseBaseClassRule/Pods-UseBaseClassRule.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -62,11 +64,12 @@
 			isa = PBXGroup;
 			children = (
 				24C367FD223FD4EF003A2B4F /* AppDelegate.swift */,
-				24C367FF223FD4EF003A2B4F /* ViewController.swift */,
-				24C36801223FD4EF003A2B4F /* Main.storyboard */,
 				24C36804223FD4F1003A2B4F /* Assets.xcassets */,
-				24C36806223FD4F1003A2B4F /* LaunchScreen.storyboard */,
 				24C36809223FD4F1003A2B4F /* Info.plist */,
+				24C36810223FD840003A2B4F /* Label.swift */,
+				24C36806223FD4F1003A2B4F /* LaunchScreen.storyboard */,
+				24C36801223FD4EF003A2B4F /* Main.storyboard */,
+				24C367FF223FD4EF003A2B4F /* ViewController.swift */,
 			);
 			path = UseBaseClassRule;
 			sourceTree = "<group>";
@@ -205,6 +208,7 @@
 			files = (
 				24C36800223FD4EF003A2B4F /* ViewController.swift in Sources */,
 				24C367FE223FD4EF003A2B4F /* AppDelegate.swift in Sources */,
+				24C36811223FD840003A2B4F /* Label.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
